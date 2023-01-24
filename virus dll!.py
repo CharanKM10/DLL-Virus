@@ -7,7 +7,8 @@ clear()
 init()
 
 
-line= os.chdir("C:\\Windows\\System32\\")
+##line= os.chdir("C:\\Windows\\System32\\)
+line= os.chdir("D")
 list_file=[]
 
 #20mg==21,182,681
@@ -33,5 +34,3 @@ for i in list_file:
     
 
 win32gui.ShowWindow(win32gui.GetForegroundWindow() , win32con.SW_SHOW)
-
-print("Made By KMCH RZ")
